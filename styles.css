@@ -1,0 +1,52 @@
+body {
+	background-color: lightgrey;
+}
+
+.navbar {
+	background-color: black;
+	color: white;
+	font-family: Arial;	
+	padding:20px;
+	margin: -8px;
+	font-size: 12px;
+}
+
+.textPart {
+	background-color: white;
+}
+
+.firstP {
+	padding: 20px;
+	border: 100px solid lightgrey;
+}
+
+.date {
+	font-size: 10px;
+	font-weight: 800;
+}
+
+.tags {
+	font-size: 10px;
+}
+
+#firstPic {
+	background-color: black;
+	height:300px;
+}
+
+#lastPic {
+	background-color: white;
+}
+/* For mobile phones: */
+
+@media only screen and (max-width: 600px) {
+	[class*="col-"] {
+		width: 100%;
+	}
+
+	.firstP {
+	padding: 20px;
+	border: 60px solid lightgrey;
+}
+}
+
